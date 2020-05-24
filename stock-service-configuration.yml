@@ -2,4 +2,4 @@ server:
   port: 8040
 spring:
   application:
-    name: stock-service
+    name: stock-service-configuration
