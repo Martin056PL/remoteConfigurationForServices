@@ -1,0 +1,25 @@
+server:
+  port: 8662
+
+spring:
+  appication:
+    name: zuul-api-gateway-service
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+zuul:
+  prefix: /api
+  host:
+    connect-timeout-millis: 5000000
+    socket-timeout-millis: 5000000
+  ignoredServices: '*'
+  routes:
+    db-service:
+      path: /db-service/**
+      url: http://db-service
+    stock-service:
+      path: /client/**
+      url:
