@@ -1,10 +1,10 @@
 server:
   port: 8030
-  ssl:
-      key-password: password
-      key-store-password: password
-      key-store: src/main/resources/keystore.jks
-      kay-store-type: pkcs12
+#  ssl:
+#      key-password: password
+#      key-store-password: password
+#      key-store: src/main/resources/keystore.jks
+#      kay-store-type: pkcs12
 spring:
   application:
     name: db-service
