@@ -21,5 +21,5 @@ zuul:
       path: /db-service/**
       url: http://localhost:8030
     stock-service:
-      path: /client/**
+      path: /stock-service/**
       url: http://localhost:8040
