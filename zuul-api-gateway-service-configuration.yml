@@ -2,7 +2,7 @@ server:
   port: 8060
 
 spring:
-  appication:
+  application:
     name: zuul-api-gateway-service
 
 #eureka:
