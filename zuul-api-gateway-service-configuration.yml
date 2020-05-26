@@ -19,7 +19,7 @@ zuul:
   routes:
     db-service:
       path: /db-service/**
-      url: http://localhost:8030
+      url: http://db-service
     stock-service:
       path: /stock-service/**
-      url: http://localhost:8040
+      url: http://stock-service
