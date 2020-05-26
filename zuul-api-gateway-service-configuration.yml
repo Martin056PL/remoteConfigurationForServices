@@ -7,9 +7,6 @@ spring:
 
 zuul:
   prefix: /api
-  host:
-    connect-timeout-millis: 5000000
-    socket-timeout-millis: 5000000
   ignoredServices: '*'
   routes:
     db-service:
