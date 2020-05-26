@@ -5,11 +5,6 @@ spring:
   application:
     name: zuul-api-gateway-service
 
-#eureka:
-#  client:
-#    register-with-eureka: false
-#    fetch-registry: false
-
 zuul:
   prefix: /api
   host:
@@ -22,4 +17,4 @@ zuul:
       service-id: db-service
     stock-service:
       path: /stock-service/**
-      service-id: http://stock-service
+      service-id: stock-service
