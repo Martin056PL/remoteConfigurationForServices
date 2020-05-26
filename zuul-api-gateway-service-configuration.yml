@@ -19,7 +19,7 @@ zuul:
   routes:
     db-service:
       path: /db-service/**
-      url: http://db-service
+      service-id: db-service
     stock-service:
       path: /stock-service/**
-      url: http://stock-service
+      service-id: http://stock-service
